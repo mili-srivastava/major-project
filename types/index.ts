@@ -28,3 +28,14 @@ export type Comment = {
   comment: string;
   timestamp: string;
 };
+
+export type SearchFilter = {
+  label: string;
+};
+
+export type Messages = {
+  profileImg: string;
+  name: string;
+  lastMessage: string;
+  timestamp: string;
+};
